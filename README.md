@@ -100,7 +100,6 @@ The DW statistic always has a value between zero and 4.0.
 A value of 2.0 means there is no autocorrelation detected in the sample. Values from zero to 2.0 indicate positive autocorrelation and values from 2.0 to 4.0 indicate negative autocorrelation.
 Autocorrelation can be useful in technical analysis, which is most concerned with the trends of security prices using charting techniques in lieu of a company's financial health or management.********
 
-****https://www.investopedia.com/terms/d/durbin-watson-statistic.asp****
 
 **No Perfect Multi-Collinearity – Multi-Collinearity** is a phenomenon when two or more independent variables are highly correlated. Multi-collinearity is checked by Variance Inflation Factor (VIF). There should be no variable in the model having VIF above 2. (…for more details see our blog on Multi-Collinearity)
 
