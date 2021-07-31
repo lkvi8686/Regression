@@ -101,3 +101,9 @@ A value of 2.0 means there is no autocorrelation detected in the sample. Values 
 Autocorrelation can be useful in technical analysis, which is most concerned with the trends of security prices using charting techniques in lieu of a company's financial health or management.********
 
 ****https://www.investopedia.com/terms/d/durbin-watson-statistic.asp****
+
+**No Perfect Multi-Collinearity – Multi-Collinearity** is a phenomenon when two or more independent variables are highly correlated. Multi-collinearity is checked by Variance Inflation Factor (VIF). There should be no variable in the model having VIF above 2. (…for more details see our blog on Multi-Collinearity)
+
+**Exogeneity** – Exogeneity is a standard assumption of regression and it means that each X variable does not depend on the dependent variable Y, rather Y depends on the Xs and on Error (e). In simple terms X is completely unaffected by Y.
+
+**Sample Size – In linear regression**, it is desirable that the number of records should be at least 10 or more times the number of independent variables to avoid the curse of dimensionality
