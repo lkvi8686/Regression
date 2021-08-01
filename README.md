@@ -106,3 +106,53 @@ Autocorrelation can be useful in technical analysis, which is most concerned wit
 **Exogeneity** – Exogeneity is a standard assumption of regression and it means that each X variable does not depend on the dependent variable Y, rather Y depends on the Xs and on Error (e). In simple terms X is completely unaffected by Y.
 
 **Sample Size – In linear regression**, it is desirable that the number of records should be at least 10 or more times the number of independent variables to avoid the curse of dimensionality
+
+
+**********************************************************************************************************************************************************************************************************
+Important Model Performance Metrics
+Coefficient of Determination (R square)
+It suggests the proportion of variation in Y which can be explained with the independent variables. Mathematically, it is the ratio of predicted values and observed values, i.e.
+
+RSquare
+
+If our fit is perfect then
+
+If then R2 = 0 indicates a poor fit. Thus it lies between 0 and 1.
+If the value of R2 is 0.912 then this suggests that 91.2% of the variation in Y can be explained with the help of given explanatory variables in that model. In other words, it explains the proportion of variation in the dependent variable that is explained by the independent variables.
+R square solely not such a good measure:
+On addition of a new variable the error is sure to decrease, thus R square always increases whenever a new variable is added to our model. This may not describe the importance of a variable.
+For eg. In a model determining the price of the house, suppose we had the variables GDP, Inflation rate, Area. If we add a new variable: no. of plane crashes (which is irrelevant) then still R square will increase.
+
+Adjusted R square:
+Adjusted R square is given by:  or
+
+Adjusted R-Square
+
+where k is the no. of regressors or predictors.
+Adjusted R square will always be less than or equal to R square.
+On addition of a variable then R square in numerator and 'k' in the denominator will increase. If the variable is actually useful then R square will increase by a large amount and 'k' in the denominator will be increased by 1. Thus the magnitude of increase in R square will compensate for increase in 'k'. On the other hand, if a variable is irrelevant then on its addition R square will not increase much and hence eventually adjusted R square will increase.
+
+Important Model Performance Metrics
+Coefficient of Determination (R square)
+It suggests the proportion of variation in Y which can be explained with the independent variables. Mathematically, it is the ratio of predicted values and observed values, i.e.
+
+RSquare
+
+If our fit is perfect then
+
+If then R2 = 0 indicates a poor fit. Thus it lies between 0 and 1.
+If the value of R2 is 0.912 then this suggests that 91.2% of the variation in Y can be explained with the help of given explanatory variables in that model. In other words, it explains the proportion of variation in the dependent variable that is explained by the independent variables.
+R square solely not such a good measure:
+On addition of a new variable the error is sure to decrease, thus R square always increases whenever a new variable is added to our model. This may not describe the importance of a variable.
+For eg. In a model determining the price of the house, suppose we had the variables GDP, Inflation rate, Area. If we add a new variable: no. of plane crashes (which is irrelevant) then still R square will increase.
+
+Adjusted R square:
+Adjusted R square is given by:  or
+
+Adjusted R-Square
+
+where k is the no. of regressors or predictors.
+Adjusted R square will always be less than or equal to R square.
+On addition of a variable then R square in numerator and 'k' in the denominator will increase. If the variable is actually useful then R square will increase by a large amount and 'k' in the denominator will be increased by 1. Thus the magnitude of increase in R square will compensate for increase in 'k'. On the other hand, if a variable is irrelevant then on its addition R square will not increase much and hence eventually adjusted R square will increase.
+
+Thus as a general thumb rule if adjusted R square increases when a new variable is added to the model, the variable should remain in the model. If the adjusted R square decreases when the new variable is added then the variable should not remain in the model.**
